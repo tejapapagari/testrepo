@@ -2,15 +2,14 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <customSettingsType>Hierarchy</customSettingsType>
     <enableFeeds>false</enableFeeds>
-    <label>Dreamhouse</label>
-    <visibility>Protected</visibility>
     <fields>
-        <fullName>LIFX_URL__c</fullName>
+        <fullName>Einstein_Vision_Email__c</fullName>
         <externalId>false</externalId>
-        <label>LIFX URL</label>
+        <label>Einstein Vision Email</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Url</type>
+        <type>Email</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>LIFX_Token__c</fullName>
@@ -23,9 +22,9 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Push_Server_URL__c</fullName>
+        <fullName>LIFX_URL__c</fullName>
         <externalId>false</externalId>
-        <label>Push Server URL</label>
+        <label>LIFX URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Url</type>
@@ -39,18 +38,9 @@
         <type>Url</type>
     </fields>
     <fields>
-        <fullName>Einstein_Vision_Email__c</fullName>
+        <fullName>Push_Server_URL__c</fullName>
         <externalId>false</externalId>
-        <label>Einstein Vision Email</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Slack_Property_Webhook_URL__c</fullName>
-        <externalId>false</externalId>
-        <label>Slack Property Webhook URL</label>
+        <label>Push Server URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Url</type>
@@ -63,4 +53,14 @@
         <trackTrending>false</trackTrending>
         <type>Url</type>
     </fields>
+    <fields>
+        <fullName>Slack_Property_Webhook_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Slack Property Webhook URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Dreamhouse</label>
+    <visibility>Protected</visibility>
 </CustomObject>

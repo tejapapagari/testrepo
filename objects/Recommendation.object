@@ -128,6 +128,29 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AcceptanceLabel</fullName>
+    </fields>
+    <fields>
+        <fullName>ActionReference</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>ImageId</fullName>
+        <inlineHelpText>For best results, use a 1000 px x 380 px image at 72 dpi or one with a similar ratio.</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsActionActive</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>RejectionLabel</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>

@@ -127,5 +127,17 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ErrorMessage</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ImplementationEffort</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

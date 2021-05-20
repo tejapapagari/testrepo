@@ -152,16 +152,16 @@
     <enableSearch>false</enableSearch>
     <enableSharing>false</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
-    <label>Batch Lead Convert Errors</label>
-    <nameField>
-        <displayFormat>ERR-{0000}</displayFormat>
-        <label>Batch Lead Convert Error Number</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Batch Lead Convert Errors</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
+    <fields>
+        <fullName>AsyncApexJobId__c</fullName>
+        <externalId>false</externalId>
+        <label>AsyncApexJobId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>Records__c</fullName>
         <externalId>false</externalId>
@@ -180,14 +180,14 @@
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
-    <fields>
-        <fullName>AsyncApexJobId__c</fullName>
-        <externalId>false</externalId>
-        <label>AsyncApexJobId</label>
-        <length>18</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
+    <label>Batch Lead Convert Errors</label>
+    <nameField>
+        <displayFormat>ERR-{0000}</displayFormat>
+        <label>Batch Lead Convert Error Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Batch Lead Convert Errors</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

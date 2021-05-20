@@ -114,6 +114,47 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ActualTax</fullName>
+    </fields>
+    <fields>
+        <fullName>AdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>AssetActionId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+    </fields>
+    <fields>
+        <fullName>EstimatedTax</fullName>
+    </fields>
+    <fields>
+        <fullName>ExternalReference</fullName>
+    </fields>
+    <fields>
+        <fullName>ExternalReferenceDataSource</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>ReferenceEntityItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>TransactionDate</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>AssetAction</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>AssetAction</lookupDialogsAdditionalFields>

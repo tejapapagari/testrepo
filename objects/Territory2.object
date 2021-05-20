@@ -58,4 +58,41 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AccountAccessLevel</fullName>
+    </fields>
+    <fields>
+        <fullName>CaseAccessLevel</fullName>
+    </fields>
+    <fields>
+        <fullName>ContactAccessLevel</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DeveloperName</fullName>
+    </fields>
+    <fields>
+        <fullName>ForecastUserId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>OpportunityAccessLevel</fullName>
+    </fields>
+    <fields>
+        <fullName>ParentTerritory2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Territory2ModelId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Territory2TypeId</fullName>
+        <type>Lookup</type>
+    </fields>
 </CustomObject>
