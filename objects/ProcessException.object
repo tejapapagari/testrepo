@@ -128,6 +128,43 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AttachedToId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CaseId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Category</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>ExternalReference</fullName>
+    </fields>
+    <fields>
+        <fullName>Message</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Severity</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>

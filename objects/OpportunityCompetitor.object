@@ -85,4 +85,8 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CompetitorName</fullName>
+        <type>Picklist</type>
+    </fields>
 </CustomObject>

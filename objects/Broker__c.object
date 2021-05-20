@@ -142,6 +142,15 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Broker_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Broker_Compact</fullName>
+        <fields>Name</fields>
+        <fields>Title__c</fields>
+        <fields>Phone__c</fields>
+        <fields>Mobile_Phone__c</fields>
+        <fields>Email__c</fields>
+        <label>Broker Compact</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -152,24 +161,6 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Broker</label>
-    <nameField>
-        <label>Broker Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Brokers</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <compactLayouts>
-        <fullName>Broker_Compact</fullName>
-        <fields>Name</fields>
-        <fields>Title__c</fields>
-        <fields>Phone__c</fields>
-        <fields>Mobile_Phone__c</fields>
-        <fields>Email__c</fields>
-        <label>Broker Compact</label>
-    </compactLayouts>
     <fields>
         <fullName>Email__c</fullName>
         <externalId>false</externalId>
@@ -180,6 +171,14 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Mobile_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
         <fullName>Phone__c</fullName>
         <externalId>false</externalId>
         <label>Phone</label>
@@ -188,10 +187,11 @@
         <type>Phone</type>
     </fields>
     <fields>
-        <fullName>Title__c</fullName>
+        <fullName>Picture_IMG__c</fullName>
         <externalId>false</externalId>
-        <label>Title</label>
-        <length>30</length>
+        <formula>IMAGE( Picture__c , &quot;picture&quot; , 150, 150)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Picture</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -206,22 +206,22 @@
         <type>Url</type>
     </fields>
     <fields>
-        <fullName>Picture_IMG__c</fullName>
+        <fullName>Title__c</fullName>
         <externalId>false</externalId>
-        <formula>IMAGE( Picture__c , &quot;picture&quot; , 150, 150)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Picture</label>
+        <label>Title</label>
+        <length>30</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>Mobile_Phone__c</fullName>
-        <externalId>false</externalId>
-        <label>Mobile Phone</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Phone</type>
-    </fields>
+    <label>Broker</label>
+    <nameField>
+        <label>Broker Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Brokers</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

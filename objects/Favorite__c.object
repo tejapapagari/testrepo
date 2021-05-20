@@ -152,27 +152,6 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Favorite</label>
-    <nameField>
-        <displayFormat>F-{00000000}</displayFormat>
-        <label>Favorite Name</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Favorites</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <fields>
-        <fullName>User__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>User</label>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Favorites</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
     <fields>
         <fullName>Property__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -185,4 +164,25 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Favorites</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Favorite</label>
+    <nameField>
+        <displayFormat>F-{00000000}</displayFormat>
+        <label>Favorite Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Favorites</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

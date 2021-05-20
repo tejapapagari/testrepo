@@ -152,15 +152,6 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Bot Command</label>
-    <nameField>
-        <label>Command Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Bot Commands</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
     <fields>
         <fullName>Active__c</fullName>
         <defaultValue>true</defaultValue>
@@ -170,20 +161,20 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Pattern__c</fullName>
+        <fullName>Apex_Class__c</fullName>
         <externalId>false</externalId>
-        <label>Invocation Pattern</label>
-        <length>200</length>
+        <label>Apex Class</label>
+        <length>100</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Apex_Class__c</fullName>
+        <fullName>Pattern__c</fullName>
         <externalId>false</externalId>
-        <label>Apex Class</label>
-        <length>100</length>
+        <label>Invocation Pattern</label>
+        <length>200</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -199,4 +190,13 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <label>Bot Command</label>
+    <nameField>
+        <label>Command Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Bot Commands</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>

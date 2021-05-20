@@ -114,6 +114,25 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Amount</fullName>
+    </fields>
+    <fields>
+        <fullName>AssetId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Mrr</fullName>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
         <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>

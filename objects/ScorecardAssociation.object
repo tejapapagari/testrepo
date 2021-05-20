@@ -128,5 +128,13 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ScorecardId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>TargetEntityId</fullName>
+        <type>Lookup</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -128,6 +128,31 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>DefaultAuthFormTextId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EffectiveFromDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EffectiveToDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsSignatureRequired</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RevisionNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>RevisionNumber</customTabListAdditionalFields>
         <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
