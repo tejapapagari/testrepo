@@ -15,7 +15,7 @@
     <entryCriteria>
         <criteriaItems>
             <field>Opportunity.Discount_Percentage__c</field>
-            <operation>greaterThan</operation>
+            <operation>lessThan</operation>
             <value>0</value>
         </criteriaItems>
     </entryCriteria>
